@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script type="text/javascript">
         var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-        var shopUrl;
+        var shopUrl = "https://potatovpn.io";
         if (/android/i.test(userAgent)) {
-            shopUrl = "https://play.google.com/store/apps/details?id=com.potatovpn.free.proxy.wifi"
+            shopUrl = "https://play.google.com/store/apps/details?id=com.potatovpn.free.proxy.wifi";
         }
         if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-            shopUrl = "https://apps.apple.com/cn/app/1473774730"
+            shopUrl = "https://apps.apple.com/cn/app/1473774730";
         }
         if (shopUrl) {
-            window.location.href = shopUrl
+            window.location.href = shopUrl;
         }
     </script>
     <title>potatovpn</title>
